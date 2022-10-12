@@ -1,0 +1,33 @@
+.allbox {
+    font-family: Tahoma;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50%;
+  }
+  .Abox, .Bbox, .Fbox {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .Abox, .Bbox {
+    border-width: 1px;
+    border-color: #687291;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  .Abox {
+    background-color: #dfe1e7;
+  }
+  .Bbox {
+    background-color: #eeeff2;
+  }
+  .Fbox {
+    background-color: #687291;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+  }

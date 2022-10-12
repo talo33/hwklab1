@@ -1,0 +1,46 @@
+.all-box-B {
+    font-family: Tahoma;
+    font-size: 40px;
+  }
+
+.finebox-B {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 0%;
+  }
+
+.boxA, .boxF {
+    display: flex;
+    flex-direction: row;
+    background-color: #eeeff2;
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+  }
+
+.boxA {
+    margin-right: 10px;
+  }
+
+.boxF {
+    margin-left: 100%;
+    margin-top: 100%;
+  }
+
+.A-box-B {
+    margin-left: 10%;
+  }
+
+.dline {
+    height: 10px;
+    width: 10px;
+    background-color: #d0d0ff;
+    margin-bottom: 10px;
+  }
+
+.boxA:hover, .boxF:hover {
+    transition: 0.75;
+    background-color: yellow;
+    color: goldenrod;
+  }
